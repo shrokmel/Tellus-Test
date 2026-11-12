@@ -1,0 +1,108 @@
+{
+ "world_A": {
+  "world": "contagious",
+  "B1_newton": {
+   "fit_rms_arcmin": 0.9990257323787164,
+   "per_body": {
+    "S": {
+     "best_fit_median_deg": 7.448899844893624e-05,
+     "best_fit_max_deg": 0.00013637413870494532,
+     "cloud_median_deg": 0.00010627346797573617
+    },
+    "P1": {
+     "best_fit_median_deg": 0.00044479148820383293,
+     "best_fit_max_deg": 0.0017231478960003353,
+     "cloud_median_deg": 0.0005255808796072461
+    },
+    "P2": {
+     "best_fit_median_deg": 0.00021386646403899403,
+     "best_fit_max_deg": 0.000959516618514118,
+     "cloud_median_deg": 0.0002684599311285669
+    },
+    "P3": {
+     "best_fit_median_deg": 0.00026848025148576855,
+     "best_fit_max_deg": 0.0004388894824921672,
+     "cloud_median_deg": 0.0003628541776113872
+    },
+    "P4": {
+     "best_fit_median_deg": 0.00016143096473388412,
+     "best_fit_max_deg": 0.0004946791324895962,
+     "cloud_median_deg": 0.00024535213753745886
+    },
+    "P5": {
+     "best_fit_median_deg": 0.00027511787684752885,
+     "best_fit_max_deg": 0.00035109618127507846,
+     "cloud_median_deg": 0.0002842599507114984
+    },
+    "M": {
+     "best_fit_median_deg": 6.722078244539172e-05,
+     "best_fit_max_deg": 8.289522194778346e-05,
+     "cloud_median_deg": 0.004518974472537896
+    }
+   },
+   "fitted_masses": {
+    "P1": 3.9990384079524406e-07,
+    "T": 3.000000009388447e-06,
+    "M": 3.6999998046307814e-08,
+    "P2": 5.750657439536447e-07,
+    "P3": 0.00015007264005924417,
+    "P4": 0.0010000034858898637,
+    "P5": 0.0002493978207669216
+   }
+  },
+  "note": "B1_kepler (planets not pulling on each other) dropped: the fit did not converge (moon ~90 deg off). Official baseline: B1_newton."
+ },
+ "world_B": {
+  "world": "newton",
+  "B1_newton": {
+   "fit_rms_arcmin": 0.998894339566313,
+   "per_body": {
+    "S": {
+     "best_fit_median_deg": 0.00013559151268172215,
+     "best_fit_max_deg": 0.0001607975625809758,
+     "cloud_median_deg": 9.928580713060222e-05
+    },
+    "P1": {
+     "best_fit_median_deg": 0.00029127573752064896,
+     "best_fit_max_deg": 0.0005043454186657204,
+     "cloud_median_deg": 0.00043134555717343507
+    },
+    "P2": {
+     "best_fit_median_deg": 0.0002466356861596871,
+     "best_fit_max_deg": 0.0009640798252790191,
+     "cloud_median_deg": 0.00024887129942861456
+    },
+    "P3": {
+     "best_fit_median_deg": 0.0004271326391622655,
+     "best_fit_max_deg": 0.0007554131132835744,
+     "cloud_median_deg": 0.00042851866846479623
+    },
+    "P4": {
+     "best_fit_median_deg": 0.0004599693138467824,
+     "best_fit_max_deg": 0.0007933142332390365,
+     "cloud_median_deg": 0.0004220719994551344
+    },
+    "P5": {
+     "best_fit_median_deg": 0.0003697431370043448,
+     "best_fit_max_deg": 0.0005940632861163427,
+     "cloud_median_deg": 0.00048264284565681815
+    },
+    "M": {
+     "best_fit_median_deg": 0.00011994532228567405,
+     "best_fit_max_deg": 0.00013563451324180792,
+     "cloud_median_deg": 0.003879792705663851
+    }
+   },
+   "fitted_masses": {
+    "P1": 4.0513855735126244e-07,
+    "T": 2.9999999946568498e-06,
+    "M": 3.6999998679933053e-08,
+    "P2": 5.969745749881256e-07,
+    "P3": 0.00015037226384180937,
+    "P4": 0.0009997212074079652,
+    "P5": 0.00024984885224644545
+   }
+  },
+  "note": "B1_kepler (planets not pulling on each other) dropped: the fit did not converge (moon ~90 deg off). Official baseline: B1_newton."
+ }
+}

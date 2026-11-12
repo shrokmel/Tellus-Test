@@ -1,0 +1,34 @@
+{
+ "r1": {
+  "model": "fable",
+  "world": "world_A"
+ },
+ "r2": {
+  "model": "sonnet",
+  "world": "world_A"
+ },
+ "r3": {
+  "model": "opus",
+  "world": "world_B"
+ },
+ "r4": {
+  "model": "opus",
+  "world": "world_A"
+ },
+ "r5": {
+  "model": "haiku",
+  "world": "world_A"
+ },
+ "r6": {
+  "model": "sonnet",
+  "world": "world_B"
+ },
+ "r7": {
+  "model": "fable",
+  "world": "world_B"
+ },
+ "r8": {
+  "model": "haiku",
+  "world": "world_B"
+ }
+}

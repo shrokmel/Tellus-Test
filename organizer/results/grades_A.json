@@ -1,0 +1,66 @@
+{
+  "g1": {
+    "E1": "present", "E1_quote": "d²r/dt² = κᵢ [ −G M_S r/|r|³ + Σ_{j∈{T,P1..P5}} G mⱼ (rⱼ − r)/|rⱼ − r|³ ] − Σ ... ,  κᵢ = 1 − βᵢ",
+    "E2": "present", "E2_quote": "βᵢ is constant between close encounters and changes abruptly at a close encounter (distance ≲ 0.2 L from Tellus or a P)" ,
+    "E3": "present", "E3_quote": "If a faint body passes within D = 0.1 L of Tellus or a P, then at the moment of closest approach ... its β is replaced by β_after = 0 ± 0.016.",
+    "E4": "absent", "E4_quote": "",
+    "E5": "partial", "E5_quote": "within D = 0.1 L of Tellus or a P ... at the moment of closest approach ... β is replaced by β_after = 0",
+    "notes": "Law 4c (ANSWER_3) gives an instantaneous reset to beta=0 at closest approach inside 0.1 L: distance threshold matches, but no rate (instant step). Reset is toward 0 regardless of the other body; no conservation or mass weighting."
+  },
+  "g2": {
+    "E1": "present", "E1_quote": "d2r/dt2 = -(1 - beta_i) G m_S r/|r|^3 + sum_{j in {T,P2,P3,P4,P5}} G m_j [ ... ]",
+    "E2": "absent", "E2_quote": "",
+    "E3": "absent", "E3_quote": "",
+    "E4": "absent", "E4_quote": "",
+    "E5": "absent", "E5_quote": "",
+    "notes": "Factor applied to S's pull only, not planets' ('I assumed only the term on S is scaled'). Beta stated as a constant per body ('Each faint body has a constant factor (1-beta_i)'); orbit changes at encounters are attributed to ordinary planetary perturbations, not to beta changes."
+  },
+  "g3": {
+    "E1": "present", "E1_quote": "d²r_b/dt² = (1 + η_b) · Σ_{j≠b} G m_j (r_j − r_b) / |r_j − r_b|³",
+    "E2": "absent", "E2_quote": "",
+    "E3": "absent", "E3_quote": "",
+    "E4": "absent", "E4_quote": "",
+    "E5": "absent", "E5_quote": "",
+    "notes": "η stated constant: 'η is the same at every return of a body'; listed falsifier is 'η changing from return to return (seen constant to ≤ 2×10⁻⁴ over up to 31 returns)'. Mentions 'gravitational charge' as (1+η) times inertia, but no exchange law."
+  },
+  "g4": {
+    "E1": "present", "E1_quote": "d²x/dt² = (1 − β) · Σ_j G m_j (r_j − x)/|r_j − x|³ (sum over all 8 massive bodies)",
+    "E2": "present", "E2_quote": "dβ/dt = − A · β · Σ_p exp( −(d_p/R)² ),   d_p = |x − r_p|,   p ∈ {T, M, P1, P2, P3, P4, P5}",
+    "E3": "present", "E3_quote": "β changes only at close approaches to a planet, always towards zero",
+    "E4": "absent", "E4_quote": "",
+    "E5": "present", "E5_quote": "A = 0.138 ± 0.003 day⁻¹          R = 0.0998 ± 0.0005 L",
+    "notes": "Stage-2 version scaled S only with A = 0.28/day; stage-3 revision scales all gravity and gives A = 0.138/day, R = 0.0998 L, matching lam and d. Fading is toward beta=0 (planets' value); no conserved quantity, and the analyst states the constants are 'the same for every planet, independent of its mass'."
+  },
+  "g5": {
+    "E1": "partial", "E1_quote": "Each body's orbit obeys n^2 a^3 = K * GM_S, where K = GM_body/GM_S ... K_N = 1.326294",
+    "E2": "absent", "E2_quote": "",
+    "E3": "absent", "E3_quote": "",
+    "E4": "absent", "E4_quote": "",
+    "E5": "absent", "E5_quote": "",
+    "notes": "Stage 2 Law F uses the common GM for all faint bodies (no per-body factor). Stage 3 gives a per-body K only for N, inside a pure Kepler (Sun-only) law, and reads it as the body's own GM. Counted partial: it is an equation, but not stated as a pull factor for the faint bodies in general."
+  },
+  "g6": {
+    "E1": "present", "E1_quote": "d^2 x/dt^2 = (1 - beta_k) * sum_{j in S,E,M,P1..P5} GM_j (r_j - x) / |r_j - x|^3",
+    "E2": "absent", "E2_quote": "",
+    "E3": "absent", "E3_quote": "",
+    "E4": "absent", "E4_quote": "",
+    "E5": "absent", "E5_quote": "",
+    "notes": "Factor stated constant: 'acceleration = k_k x Newtonian field, k_k constant per body'. A changing k is listed only as a falsifier."
+  },
+  "g7": {
+    "E1": "absent", "E1_quote": "",
+    "E2": "absent", "E2_quote": "",
+    "E3": "absent", "E3_quote": "",
+    "E4": "absent", "E4_quote": "",
+    "E5": "absent", "E5_quote": "",
+    "notes": "Law 9 is plain Newtonian gravity of S plus Tellus with no per-body factor; Law 10 and Law 11 are Kepler orbits with a = (P/P_E)^(2/3). Element changes at encounters are attributed to gravitational kicks."
+  },
+  "g8": {
+    "E1": "present", "E1_quote": "d²r_k/dt² = κ_k Σ_j GM_j (r_j − r_k)/|r_j − r_k|³   (j over the 8 massive bodies)",
+    "E2": "absent", "E2_quote": "",
+    "E3": "absent", "E3_quote": "",
+    "E4": "absent", "E4_quote": "",
+    "E5": "absent", "E5_quote": "",
+    "notes": "Self-assessment states 'κ is constant in time for each body' (70%). The excess residuals are reported as unexplained, and the 'κ or the orbit changes slowly or in episodes' remark is speculation, not a stated law."
+  }
+}

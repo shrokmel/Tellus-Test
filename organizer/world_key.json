@@ -1,0 +1,29 @@
+{
+ "world_key": {
+  "world_A": "contagious",
+  "world_B": "newton"
+ },
+ "weather_seed": 2026,
+ "noise_seed": 99,
+ "noise_seed_N": 100,
+ "N_first_day": 36233,
+ "N_design": {
+  "tp": 101.20465434633812,
+  "planet": "P4",
+  "f": 1.3230242803012306,
+  "dmin_before": 0.39629989746710287,
+  "vis": 13,
+  "x0": [
+   -4.569353508392525,
+   -10.93970699274485,
+   -12.627442641794582
+  ],
+  "v0": [
+   0.7612744445476233,
+   -0.16107641262103978,
+   -0.49011517234504987
+  ],
+  "t_end_back": 101.20465434633812
+ },
+ "note": "Visibility rules in sim/observe.py, fixed before generation."
+}

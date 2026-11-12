@@ -1,0 +1,205 @@
+{
+ "world_A": {
+  "world": "contagious",
+  "n_sightings": 207,
+  "true_pull_factor": 1.323,
+  "refs": {
+   "R_true": {
+    "fit_rms_arcmin": 0.997,
+    "fitted_pull_factor": 1.3234,
+    "pull_factor_sigma": 0.0021,
+    "errors_deg": {
+     "1 yr": {
+      "best_fit": 0.007,
+      "cloud_median": 0.042,
+      "cloud_90pct": 0.092
+     },
+     "5 yr": {
+      "best_fit": 0.144,
+      "cloud_median": 1.443,
+      "cloud_90pct": 3.719
+     },
+     "10 yr": {
+      "best_fit": 0.216,
+      "cloud_median": 2.355,
+      "cloud_90pct": 5.876
+     },
+     "20 yr": {
+      "best_fit": 0.735,
+      "cloud_median": 6.331,
+      "cloud_90pct": 15.122
+     }
+    }
+   },
+   "R_static": {
+    "fit_rms_arcmin": 0.997,
+    "fitted_pull_factor": 1.3234,
+    "pull_factor_sigma": 0.0021,
+    "errors_deg": {
+     "1 yr": {
+      "best_fit": 0.007,
+      "cloud_median": 0.042,
+      "cloud_90pct": 0.092
+     },
+     "5 yr": {
+      "best_fit": 2.263,
+      "cloud_median": 2.548,
+      "cloud_90pct": 6.434
+     },
+     "10 yr": {
+      "best_fit": 24.484,
+      "cloud_median": 22.507,
+      "cloud_90pct": 56.033
+     },
+     "20 yr": {
+      "best_fit": 24.338,
+      "cloud_median": 26.351,
+      "cloud_90pct": 36.053
+     }
+    }
+   },
+   "R_newton": {
+    "fit_rms_arcmin": 7.839,
+    "fitted_pull_factor": 1.0,
+    "pull_factor_sigma": 0.0,
+    "errors_deg": {
+     "1 yr": {
+      "best_fit": 9.915,
+      "cloud_median": 9.888,
+      "cloud_90pct": 9.971
+     },
+     "5 yr": {
+      "best_fit": 20.927,
+      "cloud_median": 20.9,
+      "cloud_90pct": 20.995
+     },
+     "10 yr": {
+      "best_fit": 30.125,
+      "cloud_median": 30.101,
+      "cloud_90pct": 30.198
+     },
+     "20 yr": {
+      "best_fit": 49.496,
+      "cloud_median": 49.47,
+      "cloud_90pct": 49.584
+     }
+    }
+   }
+  }
+ },
+ "world_B": {
+  "world": "newton",
+  "n_sightings": 207,
+  "true_pull_factor": 1.323,
+  "refs": {
+   "R_true": {
+    "fit_rms_arcmin": 1.042,
+    "fitted_pull_factor": 1.322,
+    "pull_factor_sigma": 0.0022,
+    "errors_deg": {
+     "1 yr": {
+      "best_fit": 0.018,
+      "cloud_median": 0.047,
+      "cloud_90pct": 0.109
+     },
+     "5 yr": {
+      "best_fit": 1.255,
+      "cloud_median": 2.294,
+      "cloud_90pct": 6.643
+     },
+     "10 yr": {
+      "best_fit": 6.861,
+      "cloud_median": 11.075,
+      "cloud_90pct": 54.594
+     },
+     "20 yr": {
+      "best_fit": 5.075,
+      "cloud_median": 10.305,
+      "cloud_90pct": 33.842
+     }
+    }
+   },
+   "R_static": {
+    "fit_rms_arcmin": 1.042,
+    "fitted_pull_factor": 1.322,
+    "pull_factor_sigma": 0.0022,
+    "errors_deg": {
+     "1 yr": {
+      "best_fit": 0.018,
+      "cloud_median": 0.047,
+      "cloud_90pct": 0.109
+     },
+     "5 yr": {
+      "best_fit": 1.255,
+      "cloud_median": 2.294,
+      "cloud_90pct": 6.643
+     },
+     "10 yr": {
+      "best_fit": 6.861,
+      "cloud_median": 11.075,
+      "cloud_90pct": 54.594
+     },
+     "20 yr": {
+      "best_fit": 5.075,
+      "cloud_median": 10.305,
+      "cloud_90pct": 33.842
+     }
+    }
+   },
+   "R_newton": {
+    "fit_rms_arcmin": 7.815,
+    "fitted_pull_factor": 1.0,
+    "pull_factor_sigma": 0.0,
+    "errors_deg": {
+     "1 yr": {
+      "best_fit": 9.896,
+      "cloud_median": 9.87,
+      "cloud_90pct": 9.953
+     },
+     "5 yr": {
+      "best_fit": 23.101,
+      "cloud_median": 23.074,
+      "cloud_90pct": 23.168
+     },
+     "10 yr": {
+      "best_fit": 55.728,
+      "cloud_median": 55.703,
+      "cloud_90pct": 55.801
+     },
+     "20 yr": {
+      "best_fit": 26.982,
+      "cloud_median": 26.956,
+      "cloud_90pct": 27.063
+     }
+    }
+   },
+   "R_exchange": {
+    "fit_rms_arcmin": 1.042,
+    "fitted_pull_factor": 1.322,
+    "pull_factor_sigma": 0.0022,
+    "errors_deg": {
+     "1 yr": {
+      "best_fit": 0.018,
+      "cloud_median": 0.047,
+      "cloud_90pct": 0.109
+     },
+     "5 yr": {
+      "best_fit": 1.595,
+      "cloud_median": 2.249,
+      "cloud_90pct": 3.779
+     },
+     "10 yr": {
+      "best_fit": 24.322,
+      "cloud_median": 24.88,
+      "cloud_90pct": 27.331
+     },
+     "20 yr": {
+      "best_fit": 27.177,
+      "cloud_median": 25.588,
+      "cloud_90pct": 48.286
+     }
+    }
+   }
+  }
+ }
+}
